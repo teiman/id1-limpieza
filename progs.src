@@ -1,35 +1,43 @@
 ../progs.dat
 
-defs.qc
-subs.qc
-fight.qc
-ai.qc
-combat.qc
-items.qc
-weapons.qc
-world.qc
-client.qc
-player.qc
-monsters.qc
-doors.qc
-buttons.qc
-triggers.qc
-plats.qc
-misc.qc
+src/00_defs.qc
 
-ogre.qc
-demon.qc
-shambler.qc
-knight.qc
-soldier.qc
-wizard.qc
-dog.qc
-zombie.qc
-boss.qc
+src/misc_subs.qc
 
-tarbaby.qc		// registered
-hknight.qc		// registered
-fish.qc			// registered
-shalrath.qc		// registered
-enforcer.qc		// registered
-oldone.qc		// registered
+src/ai_fight.qc
+src/ai_ai.qc
+src/ai_combat.qc
+
+src/misc_items.qc
+
+src/player_weapons.qc
+
+src/world.qc
+
+src/player_client.qc
+src/player_player.qc
+
+src/monsters.qc
+
+src/misc_doors.qc
+src/misc_buttons.qc
+src/misc_triggers.qc
+src/misc_plats.qc
+src/misc_stuff.qc
+
+src/monster_ogre.qc
+src/monster_demon.qc
+src/monster_shambler.qc
+src/monster_knight.qc
+src/monster_soldier.qc
+src/monster_wizard.qc
+src/monster_dog.qc
+src/monster_zombie.qc
+src/monster_boss.qc
+
+src/monster_tarbaby.qc		
+src/monster_hknight.qc		
+src/monster_fish.qc			
+src/monster_shalrath.qc		
+src/monster_enforcer.qc		
+src/monster_oldone.qc		
